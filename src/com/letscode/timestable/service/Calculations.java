@@ -13,7 +13,7 @@ public class Calculations {
 
         System.out.printf("%s %8s\n", "Operation", "Result");
 
-        for(int counter = 1; counter < timesTable.length; counter++) {
+        for(int counter = 1; counter <= timesTable.length; counter++) {
             System.out.printf("%5dx%d = %8d\n", counter, number, timesTable[counter-1]);
         }
     }
